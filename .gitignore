@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-
-# dependencies
-node_modules/
-
-# production
-/build
-
-# IDE - VSCode
-/.vscode
-.history/*
-
-# misc
-.env
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-=======
 # Logs
 logs
 *.log
@@ -55,6 +36,7 @@ bower_components
 .lock-wscript
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
+build/
 build/Release
 
 # Dependency directories
@@ -147,4 +129,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
->>>>>>> 156dbf688e8523b51d3506db5b1357b90d795640
+
